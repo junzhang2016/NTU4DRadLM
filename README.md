@@ -1,10 +1,10 @@
 
-<img src="docs/logo/logo2.png" align="right" width="25%">
+<img src="docs/images/ntu_logo.webp" align="right" width="25%">
  
 # NTU4DRadLM：NTU 4D Radar-centric Multi-Modal Dataset for Localization and Mapping
 
 
-This repository provides a description and acquisition of TJ4DRadSet. Due to policy restrictions, we are currently releasing only the complete 4D radar data (it has no privacy implications).
+This repository provides a description and acquisition of NTU4DRadLM. Note: The dataset will be available after the paper published.
 
 <div align="center">
 <p float="center">
