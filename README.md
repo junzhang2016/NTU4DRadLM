@@ -70,7 +70,7 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 <p float="center">
 <img src="docs/images/fig_all_traj_google_earth.png" width="500" />
 <br />
-<b>The six trajectories.</b>
+<b>The six trajectories, cp: NTU carpark P (246m), garden: NTU Yunnan Garden (339m), nyl: Nanyang Link (1017m), loop1: big loop of NTU campus boundary (6.95km), loop2: loop of the south half of NTU campus (4.79km), loop3: loop of north half of NTU campus (4.23km).</b>
 </p>
 </div>
 
