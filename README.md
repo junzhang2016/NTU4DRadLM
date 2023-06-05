@@ -10,7 +10,7 @@ This repository provides a description and acquisition of NTU4DRadLM. **Note**: 
 <p float="center">
 <img src="docs/images/gif_projection1.gif" width="1000"/>
 <br />
-<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and visual camera.</b>
+<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and visual camera. Top: radar (blue) and lidar (red) point cloud. Bottom: projection result from LiDAR onto rgb, LiDAR onto thermal, radar onto rgb, and radar onto thermal. </b>
 </p>
 </div>
 
@@ -48,7 +48,7 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 2. Specifically designed for SLAM tasks, which provides fine-tuned ground truth odometry and intentionally formulated loop closures. 
 3. Considered both low-speed robot platform and fast-speed unmanned vehicle platform. 
 4. Covered structured, unstructured and semi-structured environments. 
-5. Considered both middle- and large- scale outdoor environments, i.e., the 6 trajectories range from 246m to 6.95km. 
+5. Considered both middle- and large- scale outdoor environments, i.e., the 6 trajectories range from 246m to 6.95km. 
 6. Comprehensively evaluated three types of SLAM algorithms: 
     - pure 4D radar based 
     - 4D radar + IMU fused
@@ -79,6 +79,14 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 <img src="docs/images/fig_data_sample.png" width="1000" />
 <br />
 <b>The data samples.</b>
+</p>
+</div>
+
+<div align="center">
+<p float="center">
+<img src="docs/images/fig_qualitative_6-min.png" width="1000" />
+<br />
+<b>Comparison of three types of radar SLAM on the 6 trajectories.</b>
 </p>
 </div>
 
@@ -172,11 +180,12 @@ The dataset is made freely available for non-commercial research purposes only. 
 ) (please use Chinese).[Processing time: weekdays after Feb. 7, 2023] -->
 
 
-<!-- ## Acknowledgement
-* Annotation was done by [Testin](https://ai.testin.cn/), an AI data services company.
-* We thank the maintainers of the following repos that enable us to develop our dataset: [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) by MMLab, [simple_kitti_visualization](https://github.com/zzzxxxttt/simple_kitti_visualization) by zzzxxxttt, [3D-Detection-Tracking-Viewer](https://github.com/hailanyi/3D-Detection-Tracking-Viewer) by hailanyi.
-* We referred to [the View of Delft dataset](https://github.com/tudelft-iv/view-of-delft-dataset) and are grateful to Dr. Andras Palffy for his email correspondence and help.
-* We are grateful for the financial support from the National Key R&D Program and the help from Suzhou Millimeter-wave Technology Co. LTD. -->
+## Acknowledgement
+<!-- * Annotation was done by [Testin](https://ai.testin.cn/), an AI data services company. -->
+* We thank the maintainers of the following repos that enable us to develop our dataset: [HDL_Graph_SLAM](https://github.com/koide3/hdl_graph_slam) by koide3,  [Fast-LIO](https://github.com/hku-mars/FAST_LIO) by hku-mars, [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation) by uzh-rpg.
+* We referred to [slambook-en](https://github.com/gaoxiang12/slambook-en) and are grateful to Dr. Gao Xiang for his SLAM tutorial.
+* We referred to [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet).
+<!-- * We are grateful for the financial support from the . -->
 
 
 <!-- ## Citation
