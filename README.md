@@ -73,7 +73,7 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 
 <div align="center">
 <p float="center">
-<img src="docs/images/fig_data_sample.png" width="500" />
+<img src="docs/images/fig_data_sample.png" width="800" />
 <br />
 <b>The data samples.</b>
 </p>
