@@ -8,9 +8,9 @@ This repository provides a description and acquisition of NTU4DRadLM. **Note**: 
 
 <div align="center">
 <p float="center">
-<img src="docs/images/gif_projection1.gif" width="800"/>
+<img src="docs/images/gif_projection1.gif" width="1000"/>
 <br />
-<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and thermal camera.</b>
+<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and visual camera.</b>
 </p>
 </div>
 
@@ -18,9 +18,9 @@ This repository provides a description and acquisition of NTU4DRadLM. **Note**: 
 <div align="center">
 <p float="center">
 
-<img src="docs/images/gif_projection2.gif" width="800"/>
+<img src="docs/images/gif_projection2.gif" width="1000"/>
 <br />
-<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and thermal camera.</b>
+<b>Example data from our dataset with 4D radar, 3D LiDAR, thermal camera and visual camera.</b>
 </p>
 </div>
 
@@ -49,7 +49,10 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 3. Considered both low-speed robot platform and fast-speed unmanned vehicle platform. 
 4. Covered structured, unstructured and semi-structured environments. 
 5. Considered both middle- and large- scale outdoor environments, i.e., the 6 trajectories range from 246m to 6.95km. 
-6. Comprehensively evaluated three types of SLAM algorithms.
+6. Comprehensively evaluated three types of SLAM algorithms: 
+    - pure 4D radar based 
+    - 4D radar + IMU fused
+    - 4D radar + thermal camera fused
 
 
 
@@ -73,7 +76,7 @@ some datasets are proposed based on 4D radar in past four years, they are mainly
 
 <div align="center">
 <p float="center">
-<img src="docs/images/fig_data_sample.png" width="800" />
+<img src="docs/images/fig_data_sample.png" width="1000" />
 <br />
 <b>The data samples.</b>
 </p>
