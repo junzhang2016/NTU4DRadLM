@@ -117,6 +117,22 @@ NTU4DRadLM/
 └── others
 ```
 
+Information of the rosbags:
+| Topic Name |  Message Type | Description |
+|:-------:|:----------:|:-------------:|
+| /livox/imu | sensor_msgs/Imu | Livox built-in IMU |
+| /livox/lidar | livox_ros_driver/CustomMsg | Livox LiDAR point cloud |
+| /radar_enhanced_pcl | sensor_msgs/PointCloud | 4D radar enhanced point cloud |
+| /radar_pcl | sensor_msgs/PointCloud | 4D radar point cloud |
+| /radar_trk | sensor_msgs/PointCloud | 4D radar tracking objects |
+| /rgb_cam/image_raw/compressed | sensor_msgs/CompressedImage | RGB image (compressed) |
+| /thermal_cam/thermal_image/compressed | sensor_msgs/CompressedImage | Thermal image (compressed) |
+| /ublox/fix | sensor_msgs/NavSatFix  | GPS coordinate and covariance |
+| /ublox/fix_velocity | geometry_msgs/TwistWithCovarianceStamped | Estimated ego-velocity from GPS |
+| /vectornav/imu | sensor_msgs/Imu | VectorNav V100 IMU |
+
+
+
 <!-- Where, the `ImageSets` folder contains the initial split of the dataset. The `calib` folder contains 
 calibration files, each of which has the following contents. The `P2` is the camera
 intrinsic parameter matrix. The `Tr_velo_to_cam` is the extrinsic calibration between the 4D radar and the camera in KITTI format. -->
