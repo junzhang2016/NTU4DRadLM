@@ -199,7 +199,7 @@ The dataset is made freely available for non-commercial research purposes only. 
 ## Acknowledgement
 <!-- * Annotation was done by [Testin](https://ai.testin.cn/), an AI data services company. -->
 * We thank the maintainers of the following repos that enable us to develop our dataset: [HDL_Graph_SLAM](https://github.com/koide3/hdl_graph_slam) by koide3, [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM) by zhuge2333, [Fast-LIO](https://github.com/hku-mars/FAST_LIO) by hku-mars, [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation) by uzh-rpg.
-* We referred to [slambook-en](https://github.com/gaoxiang12/slambook-en) and are grateful to Dr. Gao Xiang for his SLAM tutorial.
+* We referred to [slambook-en](https://github.com/gaoxiang12/slambook-en) and are grateful to [Dr. Gao Xiang (高翔)](https://github.com/gaoxiang12) for his SLAM tutorial.
 * We referred to [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet) by TJRadarLab, [the View of Delft dataset](https://github.com/tudelft-iv/view-of-delft-dataset) by tudelft-iv, and [K-Radar](https://github.com/kaist-avelab/K-Radar) by kaist-avelab.
 <!-- * We are grateful for the financial support from the . -->
 
