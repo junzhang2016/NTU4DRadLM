@@ -4,7 +4,7 @@
 # NTU4DRadLM：NTU 4D Radar-centric Multi-Modal Dataset for Localization and Mapping
 
 
-This repository provides a description and acquisition of NTU4DRadLM. **Note**: The dataset will be available after the paper published.
+This repository provides a description and acquisition of NTU4DRadLM. **Note**: The paper is under review, the dataset will be available soon.
 
 <div align="center">
 <p float="center">
