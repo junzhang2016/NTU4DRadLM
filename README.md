@@ -4,7 +4,7 @@
 # NTU4DRadLM：NTU 4D Radar-centric Multi-Modal Dataset for Localization and Mapping
 
 2023/10/22 update, Download Link: 
-[NTU4DRadLM](https://entuedu-my.sharepoint.com/:f:/g/personal/jzhang061_e_ntu_edu_sg/EtZu1PoX_f1Kr7r_P9bkvmoBcU3tZVLXcvgMvTaiW1fRkg?e=ScFbil)
+[NTU4DRadLM](https://rebrand.ly/ntu4dradlm)
 
 To test the dataset, our 4DRadarSLAM system is open-sourced at: 
 [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM)
