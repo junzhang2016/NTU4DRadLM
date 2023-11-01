@@ -35,13 +35,13 @@ This repository provides a description and acquisition of NTU4DRadLM.
 <!-- - [Annotation](#annotation) -->
 <!-- - [Access_License](#access_license) -->
 - [Acknowledgement](#acknowledgement)
-<!-- - [Citation](#citation) -->
+- [Citation](#citation)
 <br>
 
 ## Introduction
 NTU4DRadLM is a novel 4D radar dataset specifically proposed for research on **robust SLAM**,  based on 4D radar, thermal camera, and IMU. Totally, the dataset is around **17.6km**, **85mins**, **50GB**. 
 
-<!-- The data will be accessed here. -->
+
 
 ### Motivation 
 Simultaneous Localization and Mapping (SLAM) is moving towards a robust perception age. However, LiDAR- and visual- SLAM may easily fail in adverse conditions (rain, snow, smoke and fog, etc.). In comparison, SLAM based on 4D Radar, thermal camera and IMU can work robustly. But only a few literature can be found. A major reason is the lack of related datasets, which seriously hinders the research. Even though
@@ -136,7 +136,12 @@ Information of the rosbags:
 | /ublox/fix_velocity | geometry_msgs/TwistWithCovarianceStamped | Estimated ego-velocity from GPS |
 | /vectornav/imu | sensor_msgs/Imu | VectorNav V100 IMU |
 
-
+## Acknowlegement
+1. 4DRadarSLAM: [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM/) 
+2. LiDAR-Visual-Thermal Calibration: [lvt2calib](https://github.com/Clothooo/lvt2calib)
+3. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
+4. The View of Delft (VoD): [view-of-delft-dataset](https://github.com/tudelft-iv/view-of-delft-dataset)
+5. [slambook-en](https://github.com/gaoxiang12/slambook-en) and [Dr. Gao Xiang (高翔)](https://github.com/gaoxiang12). His SLAM tutorial and blogs are the starting point of our SLAM journey
 
 ## Citation
 If you find this work is useful for your research, please consider citing:
