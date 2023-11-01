@@ -146,6 +146,7 @@ Information of the rosbags:
 ## Citation
 If you find this work is useful for your research, please consider citing:
 
+**Dataset**
 ```
 @INPROCEEDINGS{ZhangZhugeLiu2023ITSC,  
 author={Jun Zhang∗, Huayang Zhuge∗, Yiyao Liu∗, Guohao Peng, Zhenyu Wu, Haoyuan Zhang, Qiyang Lyu, Heshan Li, Chunyang Zhao, Dogan Kircali, Sanat Mharolkar, Xun Yang, Su Yi, Yuanzhe Wang+ and Danwei Wang},  
@@ -157,7 +158,7 @@ number={},
 pages={},  
 doi={}}
 ```
-
+**4DRadarSLAM**
 ```
 @INPROCEEDINGS{ZhangZhuge2023ICRA,
   author={Zhang, Jun and Zhuge, Huayang and Wu, Zhenyu and Peng, Guohao and Wen, Mingxing and Liu, Yiyao and Wang, Danwei},
@@ -169,3 +170,27 @@ doi={}}
   pages={8333-8340},
   doi={10.1109/ICRA48891.2023.10160670}}
 ```
+**LVT2Calib**
+```
+@INPROCEEDINGS{ZhangLiu2023IV,
+  author={Zhang, Jun and Liu, Yiyao and Wen, Mingxing and Yue, Yufeng and Zhang, Haoyuan and Wang, Danwei},
+  booktitle={2023 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={L2V2T2Calib: Automatic and Unified Extrinsic Calibration Toolbox for Different 3D LiDAR, Visual Camera and Thermal Camera}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.1109/IV55152.2023.10186657}}
+```
+**3DRadar2ThermalCalib**
+```
+@INPROCEEDINGS{9922522,
+  author={Zhang, Jun and Zhang, Shini and Peng, Guohao and Zhang, Haoyuan and Wang, Danwei},
+  booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={3DRadar2ThermalCalib: Accurate Extrinsic Calibration between a 3D mmWave Radar and a Thermal Camera Using a Spherical-Trihedral}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={2744-2749},
+  doi={10.1109/ITSC55140.2022.9922522}}
+···
