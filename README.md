@@ -184,7 +184,7 @@ doi={}}
 ```
 **3DRadar2ThermalCalib**
 ```
-@INPROCEEDINGS{9922522,
+@INPROCEEDINGS{Zhang2022ITSC,
   author={Zhang, Jun and Zhang, Shini and Peng, Guohao and Zhang, Haoyuan and Wang, Danwei},
   booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)}, 
   title={3DRadar2ThermalCalib: Accurate Extrinsic Calibration between a 3D mmWave Radar and a Thermal Camera Using a Spherical-Trihedral}, 
