@@ -9,6 +9,8 @@
 To test the dataset, our 4DRadarSLAM system is open-sourced at: 
 [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM)
 
+Paper on arxiv: [Paper](https://arxiv.org/abs/2309.00962)
+
 This repository provides a description and acquisition of NTU4DRadLM.
 
 <div align="center">
