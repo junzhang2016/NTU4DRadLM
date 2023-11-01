@@ -136,7 +136,7 @@ Information of the rosbags:
 | /ublox/fix_velocity | geometry_msgs/TwistWithCovarianceStamped | Estimated ego-velocity from GPS |
 | /vectornav/imu | sensor_msgs/Imu | VectorNav V100 IMU |
 
-## Acknowlegement
+## Acknowledgement
 1. 4DRadarSLAM: [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM/) 
 2. LiDAR-Visual-Thermal Calibration: [lvt2calib](https://github.com/Clothooo/lvt2calib)
 3. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
