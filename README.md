@@ -141,10 +141,11 @@ Information of the rosbags:
 ## Acknowledgement
 1. 4DRadarSLAM: [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM/) 
 2. LiDAR-Visual-Thermal Calibration: [lvt2calib](https://github.com/Clothooo/lvt2calib)
-3. RPG trajectory evaluation: [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
-4. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
-5. The View of Delft (VoD): [view-of-delft-dataset](https://github.com/tudelft-iv/view-of-delft-dataset)
-6. [slambook-en](https://github.com/gaoxiang12/slambook-en) and [Dr. Gao Xiang (高翔)](https://github.com/gaoxiang12). His SLAM tutorial and blogs are the starting point of our SLAM journey
+3. LiDAR-Visual-Inertial Odometry for ground truth generation: [R2Live](https://github.com/hku-mars/r2live)
+4. RPG trajectory evaluation: [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
+5. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
+6. The View of Delft (VoD): [view-of-delft-dataset](https://github.com/tudelft-iv/view-of-delft-dataset)
+7. [slambook-en](https://github.com/gaoxiang12/slambook-en) and [Dr. Gao Xiang (高翔)](https://github.com/gaoxiang12). His SLAM tutorial and blogs are the starting point of our SLAM journey
 
 ## Citation
 If you find this work is useful for your research, please consider citing:
