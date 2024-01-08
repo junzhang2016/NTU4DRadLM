@@ -198,3 +198,15 @@ doi={}}
   pages={2744-2749},
   doi={10.1109/ITSC55140.2022.9922522}}
 ```
+**4DRT-SLAM**
+```
+@INPROCEEDINGS{ZhangXiao2023CISRAM,
+  author={Zhang, Jun and Xiao, Renxiang and Li, Heshan and Liu, Yiyao and Suo, Xudong and Hong, Chaoyu and Lin, Zhongxu and Wang, Danwei},
+  booktitle={2023 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE Conference on Robotics, Automation and Mechatronics (RAM)}, 
+  title={4DRT-SLAM: Robust SLAM in Smoke Environments using 4D Radar and Thermal Camera based on Dense Deep Learnt Features}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={19-24},
+  doi={10.1109/CIS-RAM55796.2023.10370026}}
+```
