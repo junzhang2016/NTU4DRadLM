@@ -105,7 +105,6 @@ NTU4DRadLM/
 │   └── cp_YYYY-MM-DD_N.bag (e.g. cp_2022-02-03_0.bag)
 │   └── ...
 │   └── gt_odom.txt
-│   └── gt_odom.bag
 ├── garden
 │   └── ...
 ├── nyl
@@ -140,27 +139,26 @@ Information of the rosbags:
 
 ## Acknowledgement
 1. 4DRadarSLAM: [4DRadarSLAM](https://github.com/zhuge2333/4DRadarSLAM/) 
-2. LiDAR-Visual-Thermal Calibration: [lvt2calib](https://github.com/Clothooo/lvt2calib)
-3. LiDAR-Visual-Inertial Odometry for ground truth generation: [R2Live](https://github.com/hku-mars/r2live)
-4. RPG trajectory evaluation: [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
-5. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
-6. The View of Delft (VoD): [view-of-delft-dataset](https://github.com/tudelft-iv/view-of-delft-dataset)
-7. [slambook-en](https://github.com/gaoxiang12/slambook-en) and [Dr. Gao Xiang (高翔)](https://github.com/gaoxiang12). His SLAM tutorial and blogs are the starting point of our SLAM journey
+2. LiDAR-Visual-Inertial Odometry for ground truth generation: [R2Live](https://github.com/hku-mars/r2live)
+3. RPG trajectory evaluation: [rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
+4. TJ4DRadSet: [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet)
+5. The View of Delft (VoD): [view-of-delft-dataset](https://github.com/tudelft-iv/view-of-delft-dataset)
 
 ## Citation
 If you find this work is useful for your research, please consider citing:
 
 **Dataset**
 ```
-@INPROCEEDINGS{ZhangZhugeLiu2023ITSC,  
-author={Jun Zhang∗, Huayang Zhuge∗, Yiyao Liu∗, Guohao Peng, Zhenyu Wu, Haoyuan Zhang, Qiyang Lyu, Heshan Li, Chunyang Zhao, Dogan Kircali, Sanat Mharolkar, Xun Yang, Su Yi, Yuanzhe Wang+ and Danwei Wang},  
-booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},   
-title={NTU4DRadLM: 4D Radar-centric Multi-Modal Dataset for Localization and Mapping},  
-year={2023},  
-volume={},  
-number={},  
-pages={},  
-doi={}}
+@INPROCEEDINGS{ZhangZhugeLiu2023ITSC,
+  author={Zhang, Jun and Zhuge, Huayang and Liu, Yiyao and Peng, Guohao and Wu, Zhenyu and Zhang, Haoyuan and Lyu, Qiyang and Li, Heshan and Zhao, Chunyang and Kircali, Dogan and Mharolkar, Sanat and Yang, Xun and Yi, Su and Wang, Yuanzhe and Wang, Danwei},
+  booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={NTU4DRadLM: 4D Radar-Centric Multi-Modal Dataset for Localization and Mapping}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={4291-4296},
+  keywords={Visualization;Simultaneous localization and mapping;Three-dimensional displays;Robot vision systems;Thermal sensors;Cameras;Trajectory},
+  doi={10.1109/ITSC57777.2023.10422606}}
 ```
 **4DRadarSLAM**
 ```
@@ -174,39 +172,4 @@ doi={}}
   pages={8333-8340},
   doi={10.1109/ICRA48891.2023.10160670}}
 ```
-**LVT2Calib**
-```
-@INPROCEEDINGS{ZhangLiu2023IV,
-  author={Zhang, Jun and Liu, Yiyao and Wen, Mingxing and Yue, Yufeng and Zhang, Haoyuan and Wang, Danwei},
-  booktitle={2023 IEEE Intelligent Vehicles Symposium (IV)}, 
-  title={L2V2T2Calib: Automatic and Unified Extrinsic Calibration Toolbox for Different 3D LiDAR, Visual Camera and Thermal Camera}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-7},
-  doi={10.1109/IV55152.2023.10186657}}
-```
-**3DRadar2ThermalCalib**
-```
-@INPROCEEDINGS{Zhang2022ITSC,
-  author={Zhang, Jun and Zhang, Shini and Peng, Guohao and Zhang, Haoyuan and Wang, Danwei},
-  booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)}, 
-  title={3DRadar2ThermalCalib: Accurate Extrinsic Calibration between a 3D mmWave Radar and a Thermal Camera Using a Spherical-Trihedral}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={2744-2749},
-  doi={10.1109/ITSC55140.2022.9922522}}
-```
-**4DRT-SLAM**
-```
-@INPROCEEDINGS{ZhangXiao2023CISRAM,
-  author={Zhang, Jun and Xiao, Renxiang and Li, Heshan and Liu, Yiyao and Suo, Xudong and Hong, Chaoyu and Lin, Zhongxu and Wang, Danwei},
-  booktitle={2023 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE Conference on Robotics, Automation and Mechatronics (RAM)}, 
-  title={4DRT-SLAM: Robust SLAM in Smoke Environments using 4D Radar and Thermal Camera based on Dense Deep Learnt Features}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={19-24},
-  doi={10.1109/CIS-RAM55796.2023.10370026}}
-```
+
